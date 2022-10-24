@@ -9,29 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fd31984-8798-4f48-bd39-db0e6a3ec839" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/dao/impl/UserDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/filter/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/AuthorizationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/RegistrationServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/util/PostgresConnectionUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/authentication.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/homePage.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.ftl" afterDir="false" />
+    <list default="true" id="0fd31984-8798-4f48-bd39-db0e6a3ec839" name="Changes" comment="Ready registration and authorization page (remember me)">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/authentication.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/registration.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userProfile.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/validation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/AuthorizationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/AuthorizationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/RegistrationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/servlet/RegistrationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/util/PostgresConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/itis/fazlyev/radmir/util/PostgresConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/authentication.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/authentication.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/registration.ftl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +36,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,22 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="ru.itis.fazlyev.radmir.servlet" />
@@ -91,6 +82,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="GameWebApp:war exploded">
@@ -186,8 +178,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666208027932</updated>
-      <workItem from="1666208029470" duration="25226000" />
+      <workItem from="1666208029470" duration="52587000" />
+      <workItem from="1666576189684" duration="10893000" />
     </task>
+    <task id="LOCAL-00001" summary="Ready registration and authorization page (remember me)">
+      <created>1666285216206</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666285216206</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,5 +204,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ready registration and authorization page (remember me)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready registration and authorization page (remember me)" />
   </component>
 </project>

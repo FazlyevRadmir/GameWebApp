@@ -4,7 +4,6 @@ import ru.itis.fazlyev.radmir.dao.Dao;
 import ru.itis.fazlyev.radmir.dto.UserDto;
 import ru.itis.fazlyev.radmir.model.User;
 
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;

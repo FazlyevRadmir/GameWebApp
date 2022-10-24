@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "registrationServlet", urlPatterns = "/registration")
+@WebServlet(name = "registration", urlPatterns = "/registration")
 public class RegistrationServlet extends HttpServlet {
 
 

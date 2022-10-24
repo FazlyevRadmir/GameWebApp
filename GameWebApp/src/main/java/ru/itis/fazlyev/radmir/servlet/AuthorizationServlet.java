@@ -40,6 +40,7 @@ public class AuthorizationServlet extends HttpServlet {
                 }
                 resp.sendRedirect("homePage.ftl");
             } else {
+
                 resp.sendRedirect("authentication.ftl");
             }
         } catch (IOException e) {
