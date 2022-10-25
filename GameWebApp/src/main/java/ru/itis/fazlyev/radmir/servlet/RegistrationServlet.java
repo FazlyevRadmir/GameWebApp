@@ -1,5 +1,6 @@
 package ru.itis.fazlyev.radmir.servlet;
 
+import ru.itis.fazlyev.radmir.dao.impl.AjaxDaoImpl;
 import ru.itis.fazlyev.radmir.dao.impl.UserDaoImpl;
 import ru.itis.fazlyev.radmir.model.User;
 
@@ -9,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.SQLException;
 
 @WebServlet(name = "registration", urlPatterns = "/registration")
 public class RegistrationServlet extends HttpServlet {
@@ -16,7 +19,15 @@ public class RegistrationServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("registration.ftl");
+//        resp.sendRedirect("registration.ftl");
+        String username = req.getParameter("username");
+        PrintWriter out = resp.getWriter();
+        AjaxDaoImpl ajax = new AjaxDaoImpl();
+        try {
+            out.println(ajax.checkingForTheExistenceOfUser(username));
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
