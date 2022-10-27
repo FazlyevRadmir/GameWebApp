@@ -40,17 +40,17 @@
     <form id="formID" class="form" action="registration" method="post" name="vform" onsubmit="return Validate()">
         <div id="username_div" class="form-control">
             <label>Username:</label> <br>
-            <input type="text" name="username" class="textInput" id="usernameID">
+            <input type="text" name="username" class="textInput" id="usernameID" placeholder="Enter a username">
             <div id="username_error"></div>
         </div>
         <div id="password_div" class="form-control">
             <label>Password:</label> <br>
-            <input type="password" name="password" class="textInput" >
+            <input type="password" name="password" class="textInput" placeholder="Enter a password">
             <div id="password_error"></div>
         </div>
         <div id="firstName_div" class="form-control">
             <label>First name:</label> <br>
-            <input type="text" name="firstName" class="textInput">
+            <input type="text" name="firstName" class="textInput" placeholder="Enter your name">
             <div id="firstName_error"></div>
         </div>
         <div id="secondName_div" class="form-control">

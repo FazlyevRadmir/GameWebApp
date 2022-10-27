@@ -7,12 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "userProfile", urlPatterns = "/profile")
-public class UserProfileServlet extends HttpServlet {
+@WebServlet(name = "forum", urlPatterns = "/forum")
+public class ForumServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.sendRedirect("userProfile.ftl");
+        resp.sendRedirect("form.ftl");
     }
 
     @Override

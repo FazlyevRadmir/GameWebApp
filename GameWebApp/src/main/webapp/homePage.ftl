@@ -11,7 +11,7 @@
         <img src="https://i.ibb.co/wwLhz98/logo.png" alt="Microsoft" class="logo">
 
         <ul class="main-menu">
-            <li><a href="#">Profile</a></li>
+            <li><a href="profile">Profile</a></li>
             <li><a href="#">Library</a></li>
             <li><a href="#">Surface</a></li>
             <li><a href="#">Xbox</a></li>
@@ -25,10 +25,7 @@
 
     <!-- Showcase -->
     <header class="showcase">
-        <h2>Surface Deals</h2>
-        <p>
-            Select Surfaces are on sale now - save while supplies last
-        </p>
+        <h2>Site recommendations</h2>
         <a href="#" class="btn">
             Shop Now <i class="fas fa-chevron-right"></i>
         </a>
