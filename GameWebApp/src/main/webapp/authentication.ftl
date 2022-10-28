@@ -25,6 +25,7 @@
         </div>
         <div>
             <input type="submit" value="Sign In" class="btn" name="register">
+            <label>Not registered yet? | </label><a href="registration.ftl" class="linka"> >>>  Go to Registration page  <<< </a>
         </div>
     </form>
 </div>

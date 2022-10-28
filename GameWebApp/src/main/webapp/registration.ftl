@@ -55,17 +55,17 @@
         </div>
         <div id="secondName_div" class="form-control">
             <label>Second name:</label> <br>
-            <input type="text" name="secondName" class="textInput">
+            <input type="text" name="secondName" class="textInput" placeholder="Enter your surname">
             <div id="secondName_error"></div>
         </div>
         <div id="email_div" class="form-control">
             <label>Email:</label> <br>
-            <input type="email" name="email" class="textInput">
+            <input type="email" name="email" class="textInput" placeholder="Enter your email">
             <div id="email_error"></div>
         </div>
         <div id="phoneNumber_div" class="form-control">
             <label>Phone number:</label> <br>
-            <input type="text" name="phoneNumber" class="textInput">
+            <input type="text" name="phoneNumber" class="textInput" placeholder="Enter your phone number">
             <div id="phoneNumber_error"></div>
         </div>
         <div>
